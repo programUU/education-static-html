@@ -1,0 +1,16 @@
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+img{
+    /* 去除缝隙 */
+    vertical-align: top;
+}
+html{
+
+    font-size: 2.133333vw;
+}

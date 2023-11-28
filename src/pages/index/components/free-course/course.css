@@ -1,0 +1,77 @@
+.course-layout {
+    margin-top: 20px;
+    /* height: 382px;
+    background-color: gray; */
+    margin-bottom: 10px;
+    /* 宽度可以不用设置 默认占满屏幕宽度 */
+}
+
+.course {
+    font-size: 14px;
+    /* 用 flex 清除 */
+    /* 清除浮动 */
+    /* overflow: auto; */
+    padding: 0px 20px;
+}
+
+.course-title {
+    /* h2 */
+    width: 100%;
+    padding: 0 0 10px 0px;
+    color: #191919;
+    font-size: 16px;
+}
+
+.course-list {
+    /* padding-right: 20px; */
+
+
+    /* flex  */
+    /* 超出换行 */
+    /* display: flex;
+    flex-wrap: wrap; */
+
+    /* 这里 grid 布局 */
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px 20px;
+}
+
+/* .course-item { */
+    /* float: left; */
+    /* 占一半就行 */
+    /* width: 50%;
+    padding: 0 0 10px 20px; */
+/* } */
+
+.course-pic {
+    margin-bottom: 6px;
+}
+
+.course-name {
+    /* 显示两行文字 */
+    height: 40px;
+    line-height: 20px;
+    margin-bottom: 4px;
+    color: #333;
+
+
+
+    /* 多行文字省略 */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    white-space: normal !important;
+    word-wrap: break-word;
+}
+
+.course-price {
+    color: red;
+}
+
+.course-img {
+    width: 100%;
+    /* height: 100px; */
+}

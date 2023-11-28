@@ -1,0 +1,119 @@
+.header {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    padding: 0px 20px;
+    position: relative;
+
+
+    /* flex */   
+    /* 用 flex 调整两边 内容 */
+    display: flex;
+    /* 一左一右排列 */
+    justify-content: space-between;
+    align-items: center;
+    
+    /* flex 处理一维比较强大 */
+    /* grid 处理二维强大 */
+
+    /* grid */
+    /* display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100%; */
+    /* 垂直居中 */
+    /* align-items: center; */
+    
+}
+
+/* .header-logo { */
+/* 这里 flex */
+/* 这个时候 a 标签没有高度被img撑开 */
+/* 所以外层的垂直居中能够作用到img */
+/* float: left; */
+/* height: 100%; */
+/* } */
+
+.header-logo-img {
+    /* 不要同时设置宽高 要让图片等比例缩小 */
+    /* vw实现等比例缩放 */
+    /* height: 46px; */
+    height: 10vw;
+    /* margin-top: 1px; */
+}
+
+.header-toggle {
+
+    /* flex代替了浮动 */
+    /* float: right; */
+    padding: 10px;
+    background-color: transparent;
+    border: none;
+    border-radius: 4px;
+
+
+    /* grid 调整位置 */
+    /* justify-self: self-end; */
+}
+
+.header-toggle-bar {
+    display: block;
+    /* width: 22px;
+    height: 4px; */
+
+    /* vw布局实现等比例缩放 */
+    width: 5.8667vw;
+    height: 1.0667vw;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 2px;
+}
+
+.header-toggle-bar+.header-toggle-bar {
+    /* 这里也用到 flex */
+    /* margin-top: 4px; */
+    margin-top: 1.0667vw;
+}
+
+.header-toggle-active {
+    background-color: #f1f1f1;
+}
+
+.header-toggle-active .header-toggle-bar {
+    background-color: #1428a0;
+}
+
+
+.nav-layout {
+    position: absolute;
+    top: 12vw;
+    left: 0;
+    width: 100%;
+    /* 高度为0 所以有的东西都算溢出的 所以溢出隐藏 */
+    height: 0px;
+    overflow: hidden;
+    transition: height 0.5s;
+}
+
+/* 点击按钮添加该样式 */
+/* 并且有过渡动画 */
+.nav-layout-entended {
+    height: 200px;
+}
+
+.nav-list {
+    background-color: white;
+}
+
+/* a标签 */
+.nav-link {
+    display: block;
+    height: 35px;
+    line-height: 35px;
+    padding: 0px 20px;
+    color: #363636;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    color: #1428a0;
+}

@@ -1,0 +1,11 @@
+.slider-layout{
+    width: 100%;
+    /* 不给高度就是图片撑起来  给了高度图片就会缩小 */
+    /* height: 200px; */
+    margin-bottom: 20px;
+}
+
+.slider-layout img{
+    /* width: 100%; */
+    width: 100vw;
+}

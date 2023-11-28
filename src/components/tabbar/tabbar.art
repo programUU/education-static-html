@@ -1,0 +1,17 @@
+<div class="tabbar-layout">
+    <div class="tabbar">
+        <!-- tabbar-item-active选中状态 -->
+        <a href="#" class="tabbar-item tabbar-item-active">
+            <i class="iconfont icon-shouye"></i>
+            <span>首页</span>
+        </a>
+        <a href="#" class="tabbar-item">
+            <i class="iconfont icon-sousuo"></i>
+            <span>搜索</span>
+        </a>
+        <a href="#" class="tabbar-item">
+            <i class="iconfont icon-wode"></i>
+            <span>我的</span>
+        </a>
+    </div>
+</div>

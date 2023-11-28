@@ -1,0 +1,1 @@
+import '../free-course/course.css'

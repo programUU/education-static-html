@@ -1,0 +1,51 @@
+body {
+    /* 这里使用 grid 布局 */
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 48px auto 48px;
+    /* display: flex;
+    flex-direction: column; */
+
+
+    /* 高度占据整个视口 */
+    height: 100vh;
+}
+
+
+.header-layout {
+    /* 使用 flex布局 */
+    /* position: fixed;
+    top: 0;
+    left: 0; */
+
+
+    /* 流体布局 */
+    /* 让头部占满整个屏幕 */
+    /* width: 320px; */
+
+    /* 保证头部不会压碎 */
+    /* flex-shrink: 0; */
+
+    /* width: 100%;
+    height: 48px; */
+    /* rem 布局 */
+    /* height: 3rem */ /* 48/16 */
+    /* vw 布局 */
+    /* width: 100vw;
+    height: 12.8vw; */
+    background-color: red;
+}
+
+.main-layout {
+    /* 让中间内容显示出来 挤一挤 */
+    /* padding: 48px 0 48px 0; */
+
+
+    /* 使用 flex 布局 */
+    /* 内容过多的时候有滚动条 反之则没有 */
+    overflow: auto;
+    /* 因为头部和尾部想要永远固定  */
+    /* 而且有固定宽高 */
+    /* 想让中间内容占据剩余空间 */
+    /* flex-grow: 1; */
+}

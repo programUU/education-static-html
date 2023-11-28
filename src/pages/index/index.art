@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- 移动端开发 -->
+    <meta name="viewport" content="width=device-width,
+    initial-scale = 1">
+</head>
+<body>
+    <!-- 头部 -->
+    <header class="header-layout">
+        <!-- 头部logo -->
+        {{include './components/logo/logo.art'}}
+    </header>
+    <!-- 主体 -->
+    <div class="main-layout">
+        <!-- 幻灯片 -->
+        {{include './components/carousel/carousel.art'}}
+        <!-- 免费课程 -->
+        {{include './components/free-course/course.art'}}
+        <!-- 实战课程 -->
+        {{include './components/practical-course/practical.art'}}
+    </div>
+    <!-- 标签栏 -->
+    {{include '../../components/tabbar/tabbar.art'}}
+</body>
+</html>

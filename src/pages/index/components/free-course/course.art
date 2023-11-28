@@ -1,0 +1,43 @@
+<div class="course-layout">
+    <div class="course">
+        <h2 class="course-title">免费课程</h2>
+        <ul class="course-list">
+            <li class="course-item">
+                <a href="#">
+                    <p class="course-pic">
+                        <img class="course-img" src="./images//免费课程.png" alt="">
+                    </p>
+                    <p class="course-name">初识 HTML(5) + CSS(3) -2020升级版</p>
+                    <p class="course-price">免费</p>
+                </a>
+            </li>
+            <li class="course-item">
+                <a href="#">
+                    <p class="course-pic">
+                        <img class="course-img" src="./images/02.png" alt="">
+                    </p>
+                    <p class="course-name">初识 HTML(5) + CSS(3) -2020升级版</p>
+                    <p class="course-price">免费</p>
+                </a>
+            </li>
+            <li class="course-item">
+                <a href="#">
+                    <p class="course-pic">
+                        <img class="course-img" src="./images/02.png" alt="">
+                    </p>
+                    <p class="course-name">初识 HTML(5) + CSS(3) -2020升级版</p>
+                    <p class="course-price">免费</p>
+                </a>
+            </li>
+            <li class="course-item">
+                <a href="#">
+                    <p class="course-pic">
+                        <img class="course-img" src="./images/03.png" alt="">
+                    </p>
+                    <p class="course-name">初识 HTML(5) + CSS(3) -2020升级版</p>
+                    <p class="course-price">免费</p>
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
